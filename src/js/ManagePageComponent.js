@@ -7,7 +7,10 @@ import ComponentBarFactory from './ComponentBar.js';
 import ComponentHeartFactory from './ComponentHeart.js';
 import ComponentLiFactory from './ComponentLi.js';
 
-
+$('html').on('touchmove',function(){
+    console.log
+    $('audio')[0].play();
+})
 let ManageObj = {
     init (name) {
         this.oContainer = $('<div/>').addClass(name);

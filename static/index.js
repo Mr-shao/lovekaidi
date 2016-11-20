@@ -12445,6 +12445,10 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+	$('html').on('touchmove', function () {
+	    console.log;
+	    $('audio')[0].play();
+	});
 	var ManageObj = {
 	    init: function init(name) {
 	        this.oContainer = $('<div/>').addClass(name);
