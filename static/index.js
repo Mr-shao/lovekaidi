@@ -189,7 +189,7 @@
 	        marginLeft: -200,
 	        opacity: 0,
 	        bottom: -10,
-	        backgroundImage: 'url(./src/img/tanchi.jpg)'
+	        backgroundImage: 'url(./src/img/tanchi.png)'
 	    },
 	    animateIn: {
 	        opacity: 1,
@@ -231,7 +231,7 @@
 	        marginLeft: -200,
 	        opacity: 0,
 	        bottom: -10,
-	        backgroundImage: 'url(./src/img/keai.jpg)'
+	        backgroundImage: 'url(./src/img/keai.png)'
 	    },
 	    animateIn: {
 	        opacity: 1,
