@@ -290,7 +290,8 @@
 	    css: {
 	        position: 'absolute',
 	        bottom: 200,
-	        borderRadius: '50%'
+	        borderRadius: '50%',
+	        zIndex: 10
 	    },
 	    delay: 500
 	}).load();
