@@ -68,7 +68,7 @@ ManageObj
                             width:0,
                             position:'absolute',
                             opacity:0,
-                            bottom:30,
+                            bottom:-10,
                             backgroundImage:'url(./src/img/tiaofu.png)'
                         },
                         animateIn:{
