@@ -198,7 +198,7 @@
 	        fontHeight: 900,
 	        fontWeight: 'bold',
 	        fontSize: '22px',
-	        color: 'green'
+	        color: '#0f0'
 	    },
 	    animateIn: {
 	        opacity: 1,
@@ -283,26 +283,6 @@
 	    },
 	    delay: 800
 	}).addPage().addComponent({
-	    width: '400',
-	    height: '20',
-	    type: 'base',
-	    text: '这个就是送你的礼物啦！',
-	    center: true,
-	    css: {
-	        position: 'absolute',
-	        top: 100,
-	        opacity: 0,
-	        fontSize: 30
-
-	    },
-	    animateIn: {
-	        opacity: 1
-	    },
-	    animateOut: {
-	        opacity: 0
-	    },
-	    delay: 200
-	}).addComponent({
 	    width: 300,
 	    height: 300,
 	    type: 'Heart',
@@ -12395,7 +12375,7 @@
 	        this.oContainer.show();
 
 	        this.oContainer.fullpage({
-	            sectionsColor: ['orange', 'green', 'deeppink', ''],
+	            sectionsColor: ['green', 'red', 'deeppink', ''],
 	            onLeave: function onLeave(index, nextIndex, direction) {
 	                // 扎找到离开页面
 	                $('.section').eq(index - 1).trigger('onLeave');

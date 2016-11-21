@@ -51,7 +51,7 @@ let ManageObj = {
         this.oContainer.show();
 
         this.oContainer.fullpage({
-            sectionsColor: ['orange', 'green', 'deeppink',''],
+            sectionsColor: ['green', 'red', 'deeppink',''],
             onLeave (index, nextIndex, direction) {
                 // 扎找到离开页面
                 $('.section').eq(index - 1).trigger('onLeave');

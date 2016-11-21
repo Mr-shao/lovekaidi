@@ -164,7 +164,7 @@ ManageObj
                             fontHeight:900,
                             fontWeight:'bold',
                             fontSize:'22px',
-                            color:'green'
+                            color:'#0f0'
                         },
                         animateIn:{
                             opacity:1,
@@ -257,27 +257,7 @@ ManageObj
                 })
                 
             .addPage()
-                .addComponent({
-                    width:'400',
-                    height:'20',
-                    type:'base',
-                    text:'这个就是送你的礼物啦！',
-                    center: true,
-                    css: {
-                        position: 'absolute',
-                        top:100,
-                        opacity:0,
-                        fontSize:30
-                           
-                    },
-                     animateIn: {
-                        opacity: 1,
-                    },
-                    animateOut: {
-                        opacity: 0
-                    },
-                    delay:200
-                })
+                
                 .addComponent({
                     width:300,
                     height:300,
