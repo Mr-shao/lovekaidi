@@ -174,7 +174,7 @@ ManageObj
                             opacity:0,
                             top:0
                         },
-                        delay:600
+                        delay:200
                     })
                     .addComponent({
                         width: 500,
@@ -258,28 +258,6 @@ ManageObj
                 
             .addPage()
                 .addComponent({
-                    width:700,
-                    height:700,
-                    type:'Heart',
-                    center: true,
-                    css: {
-                        position: 'absolute',
-                        bottom:0,
-                        opacity:0,
-                        background:'black',
-                        borderRadius:'20%'
-                    },
-                    animateIn:{
-                        opacity:1,
-                        bottom:30,
-                    },
-                    animateOut:{
-                      opacity:0,
-                      bottom:0,
-                    }
-                })
-                        
-                .addComponent({
                     width:'400',
                     height:'20',
                     type:'base',
@@ -298,8 +276,27 @@ ManageObj
                     animateOut: {
                         opacity: 0
                     },
-                    delay:500
+                    delay:200
                 })
+                .addComponent({
+                    width:700,
+                    height:700,
+                    type:'Heart',
+                    center: true,
+                    css: {
+                        position: 'absolute',
+                        bottom:0,
+                        background:'black',
+                        borderRadius:'50%'
+                    },
+                    animateIn:{
+                        bottom:30,
+                    },
+                    animateOut:{
+                      bottom:0,
+                    }
+                })
+                        
                         
                      
         .load();
