@@ -271,9 +271,6 @@ ManageObj
                     },
                     delay:500
                 })
-                        
-                        
-                     
         .load();
 
 
