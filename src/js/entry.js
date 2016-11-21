@@ -279,22 +279,16 @@ ManageObj
                     delay:200
                 })
                 .addComponent({
-                    width:700,
-                    height:700,
+                    width:300,
+                    height:300,
                     type:'Heart',
                     center: true,
                     css: {
                         position: 'absolute',
-                        bottom:0,
-                        background:'black',
+                        bottom:200,
                         borderRadius:'50%'
                     },
-                    animateIn:{
-                        bottom:30,
-                    },
-                    animateOut:{
-                      bottom:0,
-                    }
+                    delay:500
                 })
                         
                         
