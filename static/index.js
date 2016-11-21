@@ -111,7 +111,7 @@
 	        width: 0,
 	        position: 'absolute',
 	        opacity: 0,
-	        bottom: 30,
+	        bottom: -10,
 	        backgroundImage: 'url(./src/img/tiaofu.png)'
 	    },
 	    animateIn: {
@@ -171,6 +171,198 @@
 	        opacity: 0,
 	        bottom: 50,
 	        backgroundImage: 'url(./src/img/keai.png)'
+	    },
+	    animateIn: {
+	        opacity: 1,
+	        top: 80,
+	        width: 350
+	    },
+	    animateOut: {
+	        width: 0,
+	        opacity: 0,
+	        bottom: 50
+	    },
+	    delay: 500
+
+	}).addPage().addComponent({
+	    css: {
+	        width: '100%',
+	        height: '100%',
+	        opacity: 1,
+	        backgroundImage: 'url(./src/img/bg3.png)'
+	    }
+
+	}).addComponent({
+	    width: 700,
+	    height: 700,
+	    center: true,
+	    css: {
+
+	        position: 'absolute',
+	        height: 150,
+	        opacity: 0,
+	        top: 50,
+	        backgroundImage: 'url(./src/img/qingchun.png)'
+	    },
+	    animateIn: {
+	        opacity: 1,
+	        top: 80,
+	        height: 350
+	    },
+	    animateOut: {
+	        height: 0,
+	        opacity: 0,
+	        top: 50
+	    },
+	    delay: 500
+
+	}).addPage().addComponent({
+	    css: {
+	        width: '100%',
+	        height: '100%',
+	        opacity: 1,
+	        backgroundImage: 'url(./src/img/bg4.png)'
+	    }
+
+	}).addComponent({
+	    width: 700,
+	    height: 700,
+	    center: true,
+	    css: {
+
+	        position: 'absolute',
+	        width: 0,
+	        opacity: 0,
+	        tpp: 50,
+	        backgroundImage: 'url(./src/img/xinggan.png)'
+	    },
+	    animateIn: {
+	        opacity: 1,
+	        top: 80,
+	        width: 350
+	    },
+	    animateOut: {
+	        width: 0,
+	        opacity: 0,
+	        top: 50
+	    },
+	    delay: 500
+
+	}).addPage().addComponent({
+	    css: {
+	        width: '100%',
+	        height: '100%',
+	        opacity: 1,
+	        backgroundImage: 'url(./src/img/bg5.png)'
+	    }
+
+	}).addComponent({
+	    width: 700,
+	    height: 700,
+	    center: true,
+	    css: {
+
+	        position: 'absolute',
+	        width: 0,
+	        opacity: 0,
+	        bottom: 50,
+	        backgroundImage: 'url(./src/img/we1.png)'
+	    },
+	    animateIn: {
+	        opacity: 1,
+	        top: 80,
+	        width: 350
+	    },
+	    animateOut: {
+	        width: 0,
+	        opacity: 0,
+	        bottom: 50
+	    },
+	    delay: 500
+
+	}).addPage().addComponent({
+	    css: {
+	        width: '100%',
+	        height: '100%',
+	        opacity: 1,
+	        backgroundImage: 'url(./src/img/bg6.png)'
+	    }
+
+	}).addComponent({
+	    width: 700,
+	    height: 700,
+	    center: true,
+	    css: {
+
+	        position: 'absolute',
+	        height: 100,
+	        opacity: 0,
+	        bottom: 50,
+	        backgroundImage: 'url(./src/img/we2.png)'
+	    },
+	    animateIn: {
+	        opacity: 1,
+	        top: 80,
+	        height: 350
+	    },
+	    animateOut: {
+	        height: 100,
+	        opacity: 0,
+	        bottom: 50
+	    },
+	    delay: 500
+
+	}).addPage().addComponent({
+	    css: {
+	        width: '100%',
+	        height: '100%',
+	        opacity: 1,
+	        backgroundImage: 'url(./src/img/bg7.png)'
+	    }
+
+	}).addComponent({
+	    width: 700,
+	    height: 700,
+	    center: true,
+	    css: {
+
+	        position: 'absolute',
+	        height: 0,
+	        opacity: 0,
+	        bottom: 50,
+	        backgroundImage: 'url(./src/img/we3.png)'
+	    },
+	    animateIn: {
+	        opacity: 1,
+	        top: 80,
+	        height: 350
+	    },
+	    animateOut: {
+	        height: 0,
+	        opacity: 0,
+	        bottom: 50
+	    },
+	    delay: 500
+
+	}).addPage().addComponent({
+	    css: {
+	        width: '100%',
+	        height: '100%',
+	        opacity: 1,
+	        backgroundImage: 'url(./src/img/bg8.png)'
+	    }
+
+	}).addComponent({
+	    width: 700,
+	    height: 700,
+	    center: true,
+	    css: {
+
+	        position: 'absolute',
+	        width: 0,
+	        opacity: 0,
+	        bottom: 50,
+	        backgroundImage: 'url(./src/img/me.png)'
 	    },
 	    animateIn: {
 	        opacity: 1,
