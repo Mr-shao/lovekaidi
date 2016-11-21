@@ -57,8 +57,6 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	_ManagePageComponent2.default.init('wrapper').addPage('page1 index').addComponent({
-	    width: 500,
-	    height: 700,
 	    css: {
 	        width: '100%',
 	        height: '100%',
@@ -96,179 +94,104 @@
 	    },
 	    delay: 1000
 	}).addPage().addComponent({
-	    width: 500,
-	    height: 700,
+	    center: true,
+
 	    css: {
 	        width: '100%',
 	        height: '100%',
-	        position: 'absolute',
-	        opacity: 0,
-	        bottom: -10
-	    },
-	    animateIn: {
-	        opacity: 1,
-	        bottom: 0
-	    },
-	    animateOut: {
-	        opacity: 0,
-	        bottom: -10
+	        backgroundImage: 'url(./src/img/together.png)'
 	    }
 
 	}).addComponent({
-	    width: 400,
-	    height: 700,
+	    width: 800,
+	    height: 500,
+	    type: 'base',
 	    center: true,
 	    css: {
-	        width: '100%',
-	        height: '100%',
+	        width: 0,
 	        position: 'absolute',
-	        left: '50%',
-	        marginLeft: -200,
 	        opacity: 0,
-	        bottom: -10,
-	        backgroundImage: 'url(./src/img/gather.png)'
-	    },
-	    animateIn: {
-	        opacity: 1,
-	        bottom: 40
-	    },
-	    animateOut: {
-	        opacity: 0,
-	        bottom: -10
-	    }
-
-	}).addComponent({
-	    width: 600,
-	    height: 800,
-	    center: true,
-	    css: {
-	        width: '100%',
-	        position: 'absolute',
-	        left: '50%',
-	        opacity: 0,
-	        bottom: -10,
+	        bottom: 30,
 	        backgroundImage: 'url(./src/img/tiaofu.png)'
 	    },
 	    animateIn: {
-	        opacity: 1,
-	        bottom: 10
+	        width: 400,
+	        opacity: 1
 	    },
 	    animateOut: {
-	        opacity: 0,
-	        bottom: -10
-	    }
+	        opacity: 0
+	    },
+	    delay: 500
 
 	}).addPage().addComponent({
-	    width: 500,
-	    height: 700,
 	    css: {
 	        width: '100%',
 	        height: '100%',
-	        position: 'absolute',
-	        opacity: 0,
-	        bottom: -10,
+	        opacity: 1,
 	        backgroundImage: 'url(./src/img/bg1.png)'
-	    },
-	    animateIn: {
-	        opacity: 1,
-	        bottom: 0
-	    },
-	    animateOut: {
-	        opacity: 0,
-	        bottom: -10
-	    }
-
-	}).addComponent({
-	    width: 400,
-	    height: 700,
-	    center: true,
-	    css: {
-	        width: 400,
-	        position: 'absolute',
-	        left: '50%',
-	        marginLeft: -200,
-	        opacity: 0,
-	        bottom: -10,
-	        backgroundImage: 'url(./src/img/tanchi.png)'
-	    },
-	    animateIn: {
-	        opacity: 1,
-	        top: 100
-	    },
-	    animateOut: {
-	        opacity: 0,
-	        bottom: -10
-	    }
-
-	}).addPage().addComponent({
-	    width: 500,
-	    height: 700,
-	    css: {
-	        width: '100%',
-	        height: '100%',
-	        position: 'absolute',
-	        opacity: 0,
-	        bottom: -10,
-	        backgroundImage: 'url(./src/img/bg2.png)'
-	    },
-	    animateIn: {
-	        opacity: 1,
-	        bottom: 0
-	    },
-	    animateOut: {
-	        opacity: 0,
-	        bottom: -10
-	    }
-
-	}).addComponent({
-	    width: 400,
-	    height: 700,
-	    center: true,
-	    css: {
-	        width: 400,
-	        position: 'absolute',
-	        left: '50%',
-	        marginLeft: -200,
-	        opacity: 0,
-	        bottom: -10,
-	        backgroundImage: 'url(./src/img/keai.png)'
-	    },
-	    animateIn: {
-	        opacity: 1,
-	        top: 100
-	    },
-	    animateOut: {
-	        opacity: 0,
-	        bottom: -10
-	    }
-
-	}).addPage().addComponent({
-	    width: 300,
-	    height: 450,
-	    css: {
-	        position: 'absolute',
-	        opacity: 0,
-	        bottom: -10,
-	        backgroundImage: 'url(./src/img/meigui.png)'
-	    },
-	    animateIn: {
-	        opacity: 1,
-	        bottom: 80
-	    },
-	    animateOut: {
-	        opacity: 0,
-	        bottom: -10
 	    }
 
 	}).addComponent({
 	    width: 700,
+	    height: 700,
+	    center: true,
+	    css: {
+
+	        position: 'absolute',
+	        opacity: 0,
+	        top: -10,
+	        backgroundImage: 'url(./src/img/tanchi.png)'
+	    },
+	    animateIn: {
+	        opacity: 1,
+	        top: 80
+	    },
+	    animateOut: {
+	        opacity: 0,
+	        top: -10
+	    },
+	    delay: 500
+
+	}).addPage().addComponent({
+	    css: {
+	        width: '100%',
+	        height: '100%',
+	        opacity: 1,
+	        backgroundImage: 'url(./src/img/bg2.png)'
+	    }
+
+	}).addComponent({
+	    width: 700,
+	    height: 700,
+	    center: true,
+	    css: {
+
+	        position: 'absolute',
+	        width: 0,
+	        opacity: 0,
+	        bottom: 50,
+	        backgroundImage: 'url(./src/img/keai.png)'
+	    },
+	    animateIn: {
+	        opacity: 1,
+	        top: 80,
+	        width: 350
+	    },
+	    animateOut: {
+	        width: 0,
+	        opacity: 0,
+	        bottom: 50
+	    },
+	    delay: 500
+
+	}).addPage().addComponent({
+	    width: 700,
 	    height: 50,
-	    text: '以此页送给我可爱的小公主!',
+	    text: '以此页送给我最可爱的小公主!',
 	    center: true,
 	    css: {
 	        position: 'absolute',
 	        top: 0,
-	        right: 0,
 	        opacity: 0,
 	        lineHeight: '30px',
 	        textAlign: 'center',
@@ -279,7 +202,7 @@
 	    },
 	    animateIn: {
 	        opacity: 1,
-	        top: 150
+	        top: 80
 	    },
 	    animateOut: {
 	        opacity: 0,
@@ -287,108 +210,98 @@
 	    },
 	    delay: 600
 	}).addComponent({
-	    width: 400,
+	    width: 500,
 	    height: 300,
+	    center: true,
 	    text: ' 愿你每天开心快乐,\
-	                    从今往后的每一条路都是我挽着你一同走过,你要记住，无论经历的是苦是甜、是悲伤是快乐，你的身边都有我',
+	                        从今往后的每一条路都是我挽着你一同走过,你要记住，无论经历的是苦是甜、是悲伤是快乐，你的身边都有我!',
 	    css: {
 	        position: 'absolute',
 	        opacity: 0,
 	        top: 0,
 	        right: 0,
-	        padding: '10px 15px 10px 15px',
 	        textAlign: 'justify',
+	        textIndent: '2em',
 	        fontSize: '18px',
 	        fontWeight: '900',
 	        lineHeight: '25px'
 	    },
 	    animateIn: {
 	        opacity: 1,
-	        top: 250
+	        top: 150
 	    },
 	    animateOut: {
 	        opacity: 0,
 	        top: 0
 	    },
 	    delay: 1000
+	}).addComponent({
+	    width: 300,
+	    height: 450,
+	    css: {
+	        position: 'absolute',
+	        opacity: 0,
+	        bottom: -10,
+	        backgroundImage: 'url(./src/img/meigui.png)'
+	    },
+	    animateIn: {
+	        opacity: 1,
+	        bottom: 30
+	    },
+	    animateOut: {
+	        opacity: 0,
+	        bottom: -10
+	    },
+	    delay: 3000
+
 	}).addPage().addComponent({
-	    width: 1000,
-	    height: 1500,
 	    type: 'Li',
 	    css: {
+	        width: '100%',
+	        height: '100%',
 	        position: 'absolute',
-	        left: 0,
-	        right: 0,
-	        opacity: 0,
 	        background: 'black'
-	    },
-	    animateIn: {
-	        opacity: 1
-	    },
-	    animateOut: {
-	        opacity: 0
 	    }
 	}).addComponent({
-	    width: 200,
+	    width: 400,
 	    height: 500,
 	    type: 'base',
+	    center: true,
 	    css: {
 	        position: 'absolute',
-	        left: 0,
-	        right: 0,
 	        opacity: 0,
-	        backgroundImage: 'url(./src/img/love.png)'
-
+	        backgroundImage: 'url(./src/img/love.png)',
+	        top: 10
 	    },
 	    animateIn: {
 	        opacity: 1,
-	        bottom: 0
+	        top: 200
 	    },
 	    animateOut: {
-	        opacity: 0
+	        opacity: 0,
+	        top: 10
 	    },
 	    delay: 800
-	}).addComponent({
-	    width: 400,
-	    height: 200,
-	    type: 'base',
-	    css: {
-	        position: 'absolute',
-	        right: 0,
-	        opacity: 0,
-	        backgroundImage: 'url(./src/img/shao.jpg)'
-
-	    },
-	    animateIn: {
-	        opacity: 1,
-	        bottom: 30,
-	        right: 0
-	    },
-	    animateOut: {
-	        opacity: 0,
-	        top: 0
-	    },
-	    delay: 2000
 	}).addPage().addComponent({
-	    width: '500',
-	    height: '500',
+	    width: 700,
+	    height: 700,
 	    type: 'Heart',
 	    center: true,
 	    css: {
 	        position: 'absolute',
-	        top: '50%',
-	        left: '50%',
+	        bottom: 0,
 	        opacity: 0,
 	        background: 'black',
-	        borderRadius: '50%'
+	        borderRadius: '20%'
 	    },
 	    animateIn: {
-	        opacity: 1
+	        opacity: 1,
+	        bottom: 30
 	    },
 	    animateOut: {
-	        opacity: 0
-	    },
-	    delay: 500
+	        opacity: 0,
+	        bottom: 0
+	    }
 	}).addComponent({
 	    width: '400',
 	    height: '20',
