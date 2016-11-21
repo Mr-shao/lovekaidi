@@ -283,15 +283,43 @@
 	    },
 	    delay: 800
 	}).addPage().addComponent({
-	    width: 300,
-	    height: 300,
+	    width: '500',
+	    height: '500',
 	    type: 'Heart',
 	    center: true,
 	    css: {
 	        position: 'absolute',
-	        bottom: 200,
-	        borderRadius: '50%',
-	        zIndex: 10
+	        top: '50%',
+	        left: '50%',
+	        opacity: 0,
+	        background: 'black',
+	        borderRadius: '50%'
+	    },
+	    animateIn: {
+	        opacity: 1
+	    },
+	    animateOut: {
+	        opacity: 0
+	    },
+	    delay: 500
+	}).addComponent({
+	    width: '400',
+	    height: '20',
+	    type: 'base',
+	    text: '这个就是送你的礼物啦！',
+	    center: true,
+	    css: {
+	        position: 'absolute',
+	        top: 100,
+	        opacity: 0,
+	        fontSize: 30
+
+	    },
+	    animateIn: {
+	        opacity: 1
+	    },
+	    animateOut: {
+	        opacity: 0
 	    },
 	    delay: 500
 	}).load();
