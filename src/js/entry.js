@@ -278,6 +278,7 @@ ManageObj
                     },
                     delay:500
                 })
+<<<<<<< HEAD
                         
                 .addComponent({
                     width:'400',
@@ -301,7 +302,6 @@ ManageObj
                     delay:500
                 })
                         
-                     
         .load();
 
 
