@@ -53,7 +53,7 @@
 	var _ManagePageComponent = __webpack_require__(4);
 
 	var _ManagePageComponent2 = _interopRequireDefault(_ManagePageComponent);
-	new Audio('./src/7.mp3').play();
+	new Audio('./src/7.mp3').play().catch();
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -79,7 +79,7 @@
 		 width: 500,
 	    height: 300,
 	    center: true,
-	    text: '2019年3月23<br>
+	    text: '2019年3月23\
 	这一天，你离开了我.\
 	我们在一起的第1219天, 还是没有走过1314\
 	是情深緣淺，還是情淺緣深.\
