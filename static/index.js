@@ -59,11 +59,6 @@
 			aud = new Audio('./src/7.mp3').play();
 		}
 	}
-	document.onclick = function () {
-		if (!aud) {
-			aud = new Audio('./src/7.mp3').play();
-		}
-	}
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
