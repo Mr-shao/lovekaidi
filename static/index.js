@@ -53,7 +53,16 @@
 	var _ManagePageComponent = __webpack_require__(4);
 
 	var _ManagePageComponent2 = _interopRequireDefault(_ManagePageComponent);
-	new Audio('./src/7.mp3').play().catch();
+	var promise = document.querySelector('video').play();
+
+	if (promise !== undefined) {
+	     promise.then(_ => {
+	     // Autoplay started!
+	 }).catch(error => {
+	    // Autoplay was prevented.
+	    // Show a "Play" button so that user can start playback.
+	  });
+	}
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -67,7 +76,7 @@
 	        backgroundImage: 'url(./src/img/fengmian.png)'
 	    },
 	    animateIn: {
-	        top: 20,
+	        top: 0,
 	        opacity: 1
 	    },
 	    animateOut: {
@@ -93,7 +102,7 @@
 	        lineHeight: '25px'
 	    },
                     animateIn: {
-                        top: 0,
+                        top: 20,
                         opacity: 1
                     },
                     animateOut:{
