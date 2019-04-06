@@ -67,7 +67,7 @@
 	        backgroundImage: 'url(./src/img/fengmian.png)'
 	    },
 	    animateIn: {
-	        top: 0,
+	        top: 20,
 	        opacity: 1
 	    },
 	    animateOut: {
@@ -79,8 +79,8 @@
 		 width: 500,
 	    height: 300,
 	    center: true,
-	    text: '2019年3月23\
-	这一天，你离开我了.\
+	    text: '2019年3月23<br>
+	这一天，你离开了我.\
 	我们在一起的第1219天, 还是没有走过1314\
 	是情深緣淺，還是情淺緣深.\
 	总之这个网页又如你所愿，更新了',
