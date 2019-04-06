@@ -13870,7 +13870,7 @@
 	};
 	var aud;
 	$('html').on('click touchend', function(){ 
-		if (!aud) {
+		if (!aud || aud.current === 0) {
 			aud = new Audio('./src/7.mp3').play();
 		}
 	});
