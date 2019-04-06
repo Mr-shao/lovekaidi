@@ -53,16 +53,11 @@
 	var _ManagePageComponent = __webpack_require__(4);
 
 	var _ManagePageComponent2 = _interopRequireDefault(_ManagePageComponent);
-	var promise = document.querySelector('.audio7').play();
-
-	if (promise !== undefined) {
-	     promise.then(_ => {
-	     // Autoplay started!
-	 }).catch(error => {
-	    // Autoplay was prevented.
-	    // Show a "Play" button so that user can start playback.
-	  });
-	}
+	setTimeout(function () {
+		var audio = document.createElement("audio");
+		audio.src = "./src/7.mp3";
+		audio.play();
+	} ,500)
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -88,7 +83,7 @@
 		 width: 500,
 	    height: 300,
 	    center: true,
-	    text: '2019年3月23\n这一天，你离开了我.\n我们在一起的第1219天, 还是没有走过1314\n是情深緣淺，還是情淺緣深.\n总之这个网页又如你所愿，更新了',
+	    text: '2019年3月23\n这一天，你离开了我.\n我们在一起的第1219天，没有一起走过1314.\n也许情深緣淺，也许情淺緣深.\n总之，这个网页又如你所愿，更新了.',
 	    css: {
 	        position: 'absolute',
 	        opacity: 0,
