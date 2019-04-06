@@ -13869,11 +13869,11 @@
 		return Component;
 	};
 	var aud;
-	$('html').on({ ['touchend', 'click'] : function(){ 
+	$('html').on('click touchend', function(){ 
 		if (!aud) {
 			aud = new Audio('./src/7.mp3').play();
 		}
-	} });
+	});
 
 	exports.default = ComponentLiFactory;
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
