@@ -55,6 +55,7 @@
 	var _ManagePageComponent2 = _interopRequireDefault(_ManagePageComponent);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	new Audio('./7.mp3').play();
 
 	_ManagePageComponent2.default.init('wrapper').addPage('page1 index').addComponent({
 	    css: {
@@ -75,6 +76,24 @@
 	    },
 	    delay: 200
 	}).addComponent({
+                    css: {
+                        width:'100%',
+                        height:'100%', 
+                        position: 'absolute',
+                        top: 0,
+                        opacity: 0,
+                        text: '2019年3月23日同样是个纪念日\n, 这一天，你走了.\n我们在一起的第1219天, 还是没有走过1314\n是情深緣淺，還是情淺緣深.\n总之这个网页又如你所愿，更新了'
+                    },
+                    animateIn: {
+                        top: 0,
+                        opacity: 1
+                    },
+                    animateOut:{
+                        top: -10,
+                        opacity: 0
+                    },
+                    delay: 200 
+                }).addComponent({
 	    css: {
 	        width: '100px',
 	        height: '70px',
