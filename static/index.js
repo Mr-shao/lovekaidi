@@ -53,7 +53,7 @@
 	var _ManagePageComponent = __webpack_require__(4);
 
 	var _ManagePageComponent2 = _interopRequireDefault(_ManagePageComponent);
-	new Audio('http://59.80.44.46/ting666.yymp3.com:86/new25/zhuangxinyan5/7.mp3').play();
+	new Audio('//59.80.44.46/ting666.yymp3.com:86/new25/zhuangxinyan5/7.mp3').play();
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -83,11 +83,12 @@
 	    css: {
 	        position: 'absolute',
 	        opacity: 0,
-	        top: 0,
+	        top: '20px',
 	        right: 0,
 	        textAlign: 'justify',
 	        textIndent: '2em',
 	        fontSize: '18px',
+		    color: '#fff',
 	        fontWeight: '900',
 	        lineHeight: '25px'
 	    },
