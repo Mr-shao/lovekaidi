@@ -53,7 +53,7 @@
 	var _ManagePageComponent = __webpack_require__(4);
 
 	var _ManagePageComponent2 = _interopRequireDefault(_ManagePageComponent);
-	new Audio('./7.mp3').play();
+	new Audio('./src/7.mp3').play();
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
