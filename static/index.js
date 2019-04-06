@@ -55,7 +55,7 @@
 	var _ManagePageComponent2 = _interopRequireDefault(_ManagePageComponent);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	new Audio('./7.mp3').play();
+	new Audio('static/7.mp3').play();
 
 	_ManagePageComponent2.default.init('wrapper').addPage('page1 index').addComponent({
 	    css: {
