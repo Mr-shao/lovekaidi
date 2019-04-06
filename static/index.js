@@ -54,9 +54,9 @@
 
 	var _ManagePageComponent2 = _interopRequireDefault(_ManagePageComponent);
 	setTimeout(function () {
-		var audio = document.createElement("audio");
-		audio.src = "./src/7.mp3";
-		audio.play();
+		 $(
+                        '<audio autoplay="" style="height:0;width:0;opacity:0"><source src="./src/7.mp3" type="audio/mpeg"></audio>'
+                    ).appendTo(document.body);
 	} ,500)
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
