@@ -53,7 +53,7 @@
 	var _ManagePageComponent = __webpack_require__(4);
 
 	var _ManagePageComponent2 = _interopRequireDefault(_ManagePageComponent);
-	var promise = document.querySelector('video').play();
+	var promise = document.querySelector('.audio7').play();
 
 	if (promise !== undefined) {
 	     promise.then(_ => {
