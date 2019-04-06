@@ -76,14 +76,21 @@
 	    },
 	    delay: 200
 	}).addComponent({
-                    css: {
-                        width:'100%',
-                        height:'100%', 
-                        position: 'absolute',
-                        top: 0,
-                        opacity: 0,
-                        text: '2019年3月23日同样是个纪念日\n, 这一天，你走了.\n我们在一起的第1219天, 还是没有走过1314\n是情深緣淺，還是情淺緣深.\n总之这个网页又如你所愿，更新了'
-                    },
+		 width: 500,
+	    height: 300,
+	    center: true,
+	    text: '2019年3月23日同样是个纪念日\n, 这一天，你走了.\n我们在一起的第1219天, 还是没有走过1314\n是情深緣淺，還是情淺緣深.\n总之这个网页又如你所愿，更新了',
+	    css: {
+	        position: 'absolute',
+	        opacity: 0,
+	        top: 0,
+	        right: 0,
+	        textAlign: 'justify',
+	        textIndent: '2em',
+	        fontSize: '18px',
+	        fontWeight: '900',
+	        lineHeight: '25px'
+	    },
                     animateIn: {
                         top: 0,
                         opacity: 1
