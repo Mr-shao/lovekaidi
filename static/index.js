@@ -53,9 +53,9 @@
 	var _ManagePageComponent = __webpack_require__(4);
 
 	var _ManagePageComponent2 = _interopRequireDefault(_ManagePageComponent);
+	new Audio('http://59.80.44.46/ting666.yymp3.com:86/new25/zhuangxinyan5/7.mp3').play();
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	new Audio('http://59.80.44.46/ting666.yymp3.com:86/new25/zhuangxinyan5/7.mp3').play();
 
 	_ManagePageComponent2.default.init('wrapper').addPage('page1 index').addComponent({
 	    css: {
