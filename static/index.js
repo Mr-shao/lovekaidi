@@ -55,7 +55,7 @@
 	var _ManagePageComponent2 = _interopRequireDefault(_ManagePageComponent);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	new Audio('ting666.yymp3.com:86/new25/zhuangxinyan5/7.mp3').play();
+	new Audio('http://59.80.44.46/ting666.yymp3.com:86/new25/zhuangxinyan5/7.mp3').play();
 
 	_ManagePageComponent2.default.init('wrapper').addPage('page1 index').addComponent({
 	    css: {
